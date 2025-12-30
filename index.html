@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Book</title>
+
+    <!-- Fontes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/theme.css" />
+    <link rel="stylesheet" href="./src/css/cards.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Block Book</h1>
+      <button id="addlivroBtn" class="add-livro-btn">Adicionar Livro</button>
+    </header>
+
+    <main class="container">
+        <selection id="feed" class="feed">
+
+        </selection>
+    </main>
+
+    <input type="file" id="pdfInput" accept="application/pdf" hidden>
+
+    <!-- JavaScript -->
+    <script src="./src/js/pdfReader.js"></script>
+    <script src="./src/js/parser.js"></script>
+    <script src="./src/js/render.js"></script>
+    <script src="./src/js/events.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
