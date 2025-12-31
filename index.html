@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Block Book</title>
+    <link
+      rel="shortcut icon"
+      href="./src/assents/images/blockbook-logo.png"
+      type="image/x-icon"
+    />
 
     <!-- Fontes -->
     <link
@@ -23,18 +28,16 @@
     </header>
 
     <main class="container">
-        <selection id="feed" class="feed">
-
-        </selection>
+      <section id="feed" class="feed"></section>
     </main>
 
-    <input type="file" id="pdfInput" accept="application/pdf" hidden>
+    <input type="file" id="pdfInput" accept="application/pdf" hidden />
 
     <!-- JavaScript -->
     <script src="./src/js/pdfReader.js"></script>
     <script src="./src/js/parser.js"></script>
     <script src="./src/js/render.js"></script>
-    <script src="./src/js/events.js"></script>
     <script src="./src/js/main.js"></script>
+    <script src="./src/js/events.js"></script>
   </body>
 </html>
